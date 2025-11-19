@@ -1,15 +1,9 @@
 # ts-turing
 
-To install dependencies:
+A very janky Turing Machine implementation, written in TypeScript.
 
-```bash
-bun install
+```
+./ts-turing mymachine.tm myinput.tmi -v
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+This runs the Turing Machine in such a way that you can step through the instructions.
